@@ -1,20 +1,30 @@
-# Microservices Spring Boot avec Docker Compose
+# 📘 Examen du Projet Spring Boot – Microservices : Gestion des Stagiaires
 
-👤 **Nom : Diallo**  
-👤 **Prénom : Abdoulaye Aliou**
+## 👤 Réalisé par
+**Nom :** Abdoulaye Aliou Diallo  
+**Date de livraison :** 30/06/2025  
 
-## 📦 Services inclus
+---
 
-| Service | Port | Description |
-|--------|------|-------------|
-| Eureka | 8761 | Registre de service |
-| Gateway | 9090 | Point d’entrée API |
-| Stagiaire Service | 9091 | Gestion des stagiaires |
-| Encadreur Service | 9092 | Gestion des encadreurs |
-| MySQL | 3308 | Base de données |
+## 🏗️ Architecture des Services
 
-## ▶️ Lancement
+| Service              | Port  | Docker Image                                     | Description                            |
+|---------------------|-------|--------------------------------------------------|----------------------------------------|
+| MySQL               | 3308  | `mysql:8.0`                                      | Base de données relationnelle          |
+| Eureka Server       | 8762  | [`abloking/eureka-server`](https://hub.docker.com/r/abloking/eureka-server) | Service de découverte                  |
+| API Gateway         | 9090  | [`abloking/api-gateway`](https://hub.docker.com/r/abloking/api-gateway)     | Point d’entrée des microservices       |
+| Stagiaire Service   | 9091  | [`abloking/stagiaire-service`](https://hub.docker.com/r/abloking/stagiaire-service) | Microservice CRUD stagiaires          |
+| Encadreur Service   | 9092  | [`abloking/encadreur-service`](https://hub.docker.com/r/abloking/encadreur-service) | Microservice CRUD encadreurs          |
+
+---
+
+## ▶️ Lancement du projet
+
+### 📦 Prérequis
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+### 🚀 Commande
 
 ```bash
-docker-compose up --build -d
-
+docker compose up -d

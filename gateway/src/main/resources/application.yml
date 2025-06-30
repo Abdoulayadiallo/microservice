@@ -1,0 +1,44 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: apigateway
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      server:
+        webflux:
+          discovery:
+            locator:
+              enabled: true
+          routes:
+            - id: stagiaireservice
+              uri: lb://stagiaireservice
+              predicates:
+                - Path=/api/stagiaires/**
+              filters:
+                - StripPrefix=1
+
+            - id: encadreurservice
+              uri: lb://ENCADREURSERVICE
+              predicates:
+                - Path=/api/encadreurs/**
+              filters:
+                - StripPrefix=1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+
+
