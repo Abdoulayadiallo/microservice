@@ -1,7 +1,7 @@
 # Microservices Spring Boot avec Docker Compose
 
 👤 **Nom : Diallo**  
-👤 **Prénom : Abdoulaye**
+👤 **Prénom : Abdoulaye Aliou**
 
 ## 📦 Services inclus
 
