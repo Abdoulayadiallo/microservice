@@ -1,4 +1,3 @@
-version: '3.9'
 
 services:
   mysql:
@@ -21,36 +20,36 @@ services:
       retries: 3
 
   eureka-server:
-    #image: abloking/eureka-server:latest
-    build:
-      context: ../Examen Spring boot/eureka
-      dockerfile: ../Examen Spring boot/eureka/Dockerfile
+    image: abloking/eureka-server:latest
+    # build:
+    #   context: ./eureka
+    #   dockerfile: Dockerfile
     container_name: eureka-server
     ports:
-      - "8761:8761"
+      - "8762:8762"
     networks:
       - examen-network
 
   api-gateway:
-    #image: abloking/api-gateway:latest
-    build:
-      context: ../Examen Spring boot/gateway
-      dockerfile: ../Examen Spring boot/gateway/Dockerfile
+    image: abloking/api-gateway:latest
+    # build:
+    #   context: ./gateway
+    #   dockerfile: Dockerfile
     container_name: api-gateway
     ports:
       - "9090:9090"
     depends_on:
       - eureka-server
     environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8762/eureka
     networks:
       - examen-network
 
   stagiaire-service:
-    #image: lifpro/stagiaire-service:latest
-    build:
-      context: ../Examen Spring boot/StagiaireService
-      dockerfile: ../Examen Spring boot/StagiaireService/Dockerfile
+    image: abloking/stagiaire-service:latest
+    # build:
+    #   context: ./StagiaireService
+    #   dockerfile: Dockerfile
     container_name: stagiaire-service
     ports:
       - "9091:9091"
@@ -58,7 +57,7 @@ services:
       - eureka-server
       - mysql
     environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8762/eureka
       - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/examen_spring_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
       - SPRING_DATASOURCE_USERNAME=dev
       - SPRING_DATASOURCE_PASSWORD=dev
@@ -66,10 +65,10 @@ services:
     networks:
       - examen-network
   encadreur-service:
-    #image: abloking/encadreur-service:latest
-    build:
-      context: ../Examen Spring boot/EncadreurService
-      dockerfile: ../Examen Spring boot/EncadreurService/Dockerfile
+    image: abloking/encadreur-service:latest
+    # build:
+    #   context: ./EncadreurService
+    #   dockerfile: Dockerfile
     container_name: encadreur-service
     ports:
       - "9092:9092"
@@ -77,8 +76,8 @@ services:
       - eureka-server
       - mysql
     environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
-      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/sgiu_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8762/eureka
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/examen_spring_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
       - SPRING_DATASOURCE_USERNAME=dev
       - SPRING_DATASOURCE_PASSWORD=dev
     restart: on-failure
