@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75f375be-78d6-49aa-ba47-004ef3fc6a05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JEE/Examen/web/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring boot JAVA avancé/Examen Spring boot/EncadreurService/src/main/java/com/abdoulayediallo/EncadreurService/clients/StagiaireClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring boot JAVA avancé/Examen Spring boot/EncadreurService/src/main/java/com/abdoulayediallo/EncadreurService/dto/StagiaireDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring boot JAVA avancé/Examen Spring boot/EncadreurService/src/main/java/com/abdoulayediallo/EncadreurService/services/EncadreurService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring boot JAVA avancé/Examen Spring boot/StagiaireService/src/main/java/com/abdoulayediallo/StagiaireService/clients/EncadreurClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring boot JAVA avancé/Examen Spring boot/StagiaireService/src/main/java/com/abdoulayediallo/StagiaireService/dto/EncadreurDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring boot JAVA avancé/Examen Spring boot/StagiaireService/src/main/java/com/abdoulayediallo/StagiaireService/models/Stagiaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring boot JAVA avancé/Examen Spring boot/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/kotlin/com/example/easyreader/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/res/drawable-v21/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/res/values-night/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/android/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/ios/RunnerTests/RunnerTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/linux/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/linux/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/linux/flutter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/linux/runner/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/linux/runner/main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/linux/runner/my_application.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/linux/runner/my_application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Base.lproj/MainMenu.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Configs/AppInfo.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Configs/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Configs/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Configs/Warnings.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/DebugProfile.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/MainFlutterWindow.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/Runner/Release.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/macos/RunnerTests/RunnerTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/test/widget_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/web/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/web/icons/Icon-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/web/icons/Icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/web/icons/Icon-maskable-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/web/icons/Icon-maskable-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/web/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/flutter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/Runner.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/flutter_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/flutter_window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/resource.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/resources/app_icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/runner.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/win32_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter/easyreader/windows/runner/win32_window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JEE/ImmobilierWeb/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JEE/ImmobilierWeb/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JEE/ImmobilierWeb/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../JEE/ImmobilierWeb/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JEE/ImmobilierWeb/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../JEE/ImmobilierWeb/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JEE/ImmobilierWeb/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JEE/ImmobilierWeb/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JEE/ProjetJEE.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JEE/ProjetJEE/build/web/etudiant_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JEE/ProjetJEE/build/web/etudiant_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JEE/ProjetJEE/build/web/ordinateur_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JEE/ProjetJEE/build/web/ordinateur_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JEE/ProjetJEE/web/etudiant_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JEE/ProjetJEE/web/etudiant_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JEE/ProjetJEE/web/ordinateur_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JEE/ProjetJEE/web/ordinateur_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../symfony/examen" beforeDir="false" afterPath="$PROJECT_DIR$/../../symfony/examen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../symfony/gl4sf" beforeDir="false" afterPath="$PROJECT_DIR$/../../symfony/gl4sf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../symfony/test" beforeDir="false" afterPath="$PROJECT_DIR$/../../symfony/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../symfony/testAuthentification" beforeDir="false" afterPath="$PROJECT_DIR$/../../symfony/testAuthentification" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2zCXVMwPImQMQN8Ee64fp7X5HZB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.EncadreurService [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StagiaireService [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eureka [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gateway [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EncadreurServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.StagiaireServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ablo/Documents/Technolab/Spring boot JAVA avancé/Examen Spring boot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EncadreurService/src/main/java/com/abdoulayediallo/EncadreurService/dto" />
+      <recent name="$PROJECT_DIR$/EncadreurService/src/main/java/com/abdoulayediallo/EncadreurService/clients" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.abdoulayediallo.StagiaireService.clients" />
+      <recent name="com.abdoulayediallo.StagiaireService.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="EncadreurServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="EncadreurService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abdoulayediallo.EncadreurService.EncadreurServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abdoulayediallo.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abdoulayediallo.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StagiaireServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="StagiaireService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abdoulayediallo.StagiaireService.StagiaireServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75f375be-78d6-49aa-ba47-004ef3fc6a05" name="Changes" comment="" />
+      <created>1751236051827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751236051827</updated>
+      <workItem from="1751236054544" duration="6310000" />
+      <workItem from="1751277953926" duration="662000" />
+      <workItem from="1751280851274" duration="609000" />
+      <workItem from="1751282757398" duration="172000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

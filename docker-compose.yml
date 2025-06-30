@@ -1,0 +1,90 @@
+version: '3.9'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: examen_spring_db
+      MYSQL_USER: dev
+      MYSQL_PASSWORD: dev
+    ports:
+      - "3308:3306"
+    command: --default-authentication-plugin=mysql_native_password
+    networks:
+      - examen-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  eureka-server:
+    #image: abloking/eureka-server:latest
+    build:
+      context: ../Examen Spring boot/eureka
+      dockerfile: ../Examen Spring boot/eureka/Dockerfile
+    container_name: eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - examen-network
+
+  api-gateway:
+    #image: abloking/api-gateway:latest
+    build:
+      context: ../Examen Spring boot/gateway
+      dockerfile: ../Examen Spring boot/gateway/Dockerfile
+    container_name: api-gateway
+    ports:
+      - "9090:9090"
+    depends_on:
+      - eureka-server
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+    networks:
+      - examen-network
+
+  stagiaire-service:
+    #image: lifpro/stagiaire-service:latest
+    build:
+      context: ../Examen Spring boot/StagiaireService
+      dockerfile: ../Examen Spring boot/StagiaireService/Dockerfile
+    container_name: stagiaire-service
+    ports:
+      - "9091:9091"
+    depends_on:
+      - eureka-server
+      - mysql
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/examen_spring_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+      - SPRING_DATASOURCE_USERNAME=dev
+      - SPRING_DATASOURCE_PASSWORD=dev
+    restart: on-failure
+    networks:
+      - examen-network
+  encadreur-service:
+    #image: abloking/encadreur-service:latest
+    build:
+      context: ../Examen Spring boot/EncadreurService
+      dockerfile: ../Examen Spring boot/EncadreurService/Dockerfile
+    container_name: encadreur-service
+    ports:
+      - "9092:9092"
+    depends_on:
+      - eureka-server
+      - mysql
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/sgiu_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+      - SPRING_DATASOURCE_USERNAME=dev
+      - SPRING_DATASOURCE_PASSWORD=dev
+    restart: on-failure
+    networks:
+      - examen-network
+
+networks:
+  examen-network:
+    driver: bridge
